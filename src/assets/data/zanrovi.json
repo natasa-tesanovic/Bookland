@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "naziv": "Drama"
+    },
+    {
+        "id": 2,
+        "naziv": "Komedija"
+    },
+    {
+        "id": 3,
+        "naziv": "Fantastika"
+    }, 
+    {
+        "id": 4,
+        "naziv": "Triler"
+    },
+    {
+        "id": 5,
+        "naziv": "Akcioni"
+    },
+    {
+        "id": 6,
+        "naziv": "Istorijski"
+    },
+    {
+        "id": 7,
+        "naziv": "Naucna fantastika"
+    }
+]

@@ -1,0 +1,76 @@
+<div class="all-page-title page-breadcrumb">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Napravite rezervaciju </h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+ <div class="reservation-box">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 col-xs-12">
+                <div class="contact-block">
+                    <form id="contactForm" [formGroup]="form" (ngSubmit)="onSubmit()">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>Rezervišite knjigu</h3>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="date" id="input_date" placeholder="dd/mm/YYYY" class="datepicker picker__input form-control" formControlName="date"  required data-error="Please enter Date">
+                                        <div  class="help-block with-errors  text-danger" *ngIf="form.get('date')?.hasError('required')">
+                                            Polje za datum je neophodno.
+                                        </div>
+                                    </div>                                 
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <select formControlName="book" class="form-control custom-select d-block" id="book"  required data-error="Please select book">
+                                            <option [value]="0" disabled>Izaberite knjigu:</option>
+                                            <option *ngFor="let book of books" [value]="book.id">{{ book.naslov }}</option>
+                                        </select>
+                                        <div class="help-block with-errors  text-danger" *ngIf="form.get('book')?.hasError('required')">
+                                           Naziv knjige je neophodan.
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h3>Kontakt detalji</h3>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name" formControlName="name" placeholder="Vaše ime" required data-error="Molimo vas unesite svoje ime">
+                                        <div class="help-block with-errors  text-danger" *ngIf="form.get('name')?.hasError('required')">
+                                            Polje za ime je neophodno.
+                                        </div>
+                                        <div class="help-block with-errors text-danger" *ngIf="(form.get('name')?.touched || form.get('name')?.dirty) && !form.get('name')?.valid">  Ime mora početi prvim velikim slovom, zatim idu mala slova.Mora imati barem 2 karaktera.</div>
+                                    </div>                                 
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Vaš Email" id="email" class="form-control" formControlName="email" required data-error="Molimo vas unesite svoj email">
+                                        <div  class="help-block with-errors  text-danger" *ngIf="form.get('email')?.hasError('required')">
+                                            Polje za Email je neophodno.
+                                        </div>
+                                        <div class="help-block with-errors text-danger " *ngIf="(form.get('email')?.touched || form.get('email')?.dirty) && !form.get('email')?.valid">Email mora imati sva mala slova, brojeve ili neke specijalne karaktere  kao što su tačka i crtica. Mora sadržati '@' znak.</div>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="submit-button text-center">
+                                    <button class="btn btn-common" id="submit" type="submit" [disabled]="!form.valid">Rezerviši</button>
+                                    <div id="msgSubmit" class="h3 text-center hidden"></div> 
+                                    <div class="clearfix"></div> 
+                                </div>
+                            </div>
+                        </div>            
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+

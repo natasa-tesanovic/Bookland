@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "ime": "Brus",
+        "prezime": "Kameron"
+    },
+    {
+        "id": 2,
+        "ime": "Kevin",
+        "prezime": "Kvan"
+    },
+    {
+        "id": 3,
+        "ime": "Željko",
+        "prezime": "Obrenović"
+    },
+    {
+        "id": 4,
+        "ime": "Stiven",
+        "prezime": "Presfild"
+    },
+    {
+        "id": 5,
+        "ime": "Džon",
+        "prezime": "Vilijams"
+    },
+    {
+        "id": 6,
+        "ime": "Domeniko",
+        "prezime": "Starnone"
+    }, 
+    {
+        "id": 7,
+        "ime": "Momo",
+        "prezime": "Kapor"
+    },
+    {
+        "id": 8,
+        "ime": "Haruki",
+        "prezime": "Murakami"
+    },
+    {
+        "id": 9,
+        "ime": "Frenk",
+        "prezime": "Herbert"
+    },
+    {
+        "id": 10,
+        "ime": "Hju",
+        "prezime": "Maklenan"
+    },
+    {
+        "id": 11,
+        "ime": "Tarin",
+        "prezime": "Fišer"
+    }, 
+    {
+        "id": 12,
+        "ime": "Liju",
+        "prezime": "Cisin"
+    },
+    {
+        "id": 13,
+        "ime": "Megi",
+        "prezime": "Stivoter"
+    },
+    {
+        "id": 14,
+        "ime": "Stefani",
+        "prezime": "Majer"
+    }
+
+]
