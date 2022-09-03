@@ -1,0 +1,48 @@
+<div class="all-page-title page-breadcrumb">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>,,Napraviti biblioteku u kući, znači podariti joj dušu."</h1><br>
+                <p>-Ciceron</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-lg-12">
+    <br>
+    <br>
+    <h2>Izaberite knjigu iz naše ponude.</h2><br><br>
+
+   
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <div class=" text-center">
+            <a class="btn btn-dark mr-2" routerLink="/genre/drama">Drama</a>
+            <a class="btn btn-dark mr-2" routerLink="/genre/komedija">Komedija</a>
+            <a class="btn btn-dark mr-2" routerLink="/genre/fantastika">Fantastika</a>
+            <a class="btn btn-dark mr-2" routerLink="/genre/triler">Triler</a>
+            <a class="btn btn-dark mr-2" routerLink="/genre/akcioni">Akcioni</a>
+            <a class="btn btn-dark mr-2" routerLink="/genre/istorijski">Istorijski</a>
+            <a class="btn btn-dark mr-2" routerLink="/genre/nf">Naučna fantastika / NF</a>
+        </div>
+    </div>
+</div><br><br><br><br>
+
+<div class="row special-list" >
+    <div *ngFor="let book of books" class="col-lg-4 col-md-6 special-grid d-flex flex-row">
+        <div class="gallery-single fix" id="books" >
+            <img src="{{ book.slika }}" class="img-fluid" alt="{{ book.naslov }}">
+            <div class="why-text d-flex flex-column justify-content-center align-items-center">
+               <a [routerLink]="['/knjiga', book.id]"> <h3>{{ book.naslov }} <span class="text-dark font-weight-bold" *ngIf="book.isBestseller"> | Bestseller Knjiga </span></h3></a>
+               <h4>Žanr: {{ book.zanr }}</h4>
+                <p>Pisac: {{ book.pisac }}</p>
+                <p>{{ book.opis | cutText}}</p>
+                <h5 *ngIf="!!book.staraCena" >Cena: {{ book.novaCena }} RSD<sup class="text-danger font-weight-bold"> <s>{{ book.staraCena }}  RSD</s> </sup></h5>
+                <h5 *ngIf="book.staraCena == null">Cena: {{ book.novaCena}} RSD</h5>
+                <a [routerLink]="['/knjiga', book.id]" class="btn w-50 btn-dark btn-circle d-flex justify-content-center m-2" href="#">Pogledajte detalje</a>
+            </div>
+        </div>
+    </div>
+    
+</div>

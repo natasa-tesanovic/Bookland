@@ -1,0 +1,41 @@
+<main class="container-fluid">
+    <div class="container" *ngIf="book;else no_book" [@expand]> 
+        <div class="row">
+            <div class="col-lg-12">
+                <div class=" d-flex flex-column justify-content-center">
+                    <div class="d-flex justify-content-center ">
+                        <img class="img-fluid" src="{{ book.slika }}" alt="{{  book.naslov }}">
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center ">
+                        <h1>{{ book.naslov }}</h1>
+
+                       
+                        <h2 *ngIf="!!book.staraCena" >Cena:  {{ book.novaCena }} RSD<sup class="text-danger font-weight-bold"> <s>{{ book.staraCena }}  RSD</s> </sup></h2>
+                <h2 *ngIf="book.staraCena == null"> Cena: {{ book.novaCena}} RSD</h2>
+                        <p *ngIf="book.isBestseller"> {{  'Bestseller Knjiga' | uppercase }}</p>
+                        <h2 class="h2">Žanr: {{ book.zanr }}</h2>
+                    </div>
+                    <br/><br/>
+                    <p class=".">{{ book.opis }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center">
+                <a href="/knjige" class="btn btn-outline-info ml-auto mb-5"><i class="fa fa-arrow-left"></i>  Idi nazad na sve knjige</a>
+            </div>
+        </div>
+    </div>
+    <ng-template #no_book>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class=" d-flex flex-column justify-content-center mt-5">
+                        <h1>TRAŽENA KNJIGA NE POSTOJI</h1>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </ng-template>
+</main>

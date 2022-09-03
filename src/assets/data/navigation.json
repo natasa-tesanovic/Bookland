@@ -1,0 +1,23 @@
+[
+    {
+        "id" : 1,
+        "path" : "pocetna",
+        "name" : "Početna"
+    },
+    {
+        "id" : 2,
+        "path" : "knjige",
+        "name" : "Knjige"
+    },
+    { 
+        "id" : 3,
+        "path" : "rezervacije",
+        "name" : "Rezervacije"
+    },
+    {  
+         "id" : 4,
+        "path" : "kontakt",
+        "name" : "Kontakt"
+    }
+    
+  ]

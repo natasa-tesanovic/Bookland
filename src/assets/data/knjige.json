@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "naslov": "Smisao života jednog psa",
+    "pisac": "Brus Kameron",
+    "zanr": "Komedija",
+    "staraCena": null,
+    "novaCena": "890",
+    "slika": "assets/images/knjiga1.jpg",
+    "isBestseller": false, 
+    "opis": "Nakon što se ponovo rodi, ovoga puta kao zlatni retriver, zbunjeni Bejli shvata da je dobio priliku da proživi još jedan život u porodici dečaka Itana. Pripovedajući nam o životnim nevoljama i radostima, te velikoj uzajamnoj ljubavi između njega i dečaka, Bejli nam govori i o svojoj potrazi za smislom postojanja, koji pronalazi u nastojanju da bude dobar pas."
+  },
+  {
+    "id": 2,
+    "naslov": "Muke bogataša",
+    "pisac": "Kevin Kvan",
+    "zanr": "Komedija",
+    "staraCena": "1000",
+    "novaCena": "890",
+    "slika": "assets/images/knjiga2.jpg",
+    "isBestseller": true,
+    "opis": "Čim je čuo da mu je baka Su Ji na samrti, Nikolas Jang je pojurio da bude uz nju – ali nije jedini. Ceo klan Šang-Jang sa svih strana sveta sjatio se u Singapur u nadi da će se dokopati Su Jiinog ogromnog bogatstva. Kako svaki član porodice pokušava da se domogne Tajersol parka – raskošne palate i imanja od dvadeset pet hektara u srcu Singapura – kuća u kojoj je Nikolas odrastao pretvara se u leglo intriga i skandala."
+  },
+  {
+    "id": 3,
+    "naslov": "Koloseum",
+    "pisac": "Željko Obrenović",
+    "zanr": "Akcioni",
+    "staraCena": "1100",
+    "novaCena": "990",
+    "slika": "assets/images/knjiga3.jpg",
+    "isBestseller": false,
+    "opis": "Da li je Koloseum urbana legenda ili to mesto stvarno postoji? Šta se dešava iza njegovih zidova? Šta privlači najbogatije i najmoćnije ljude na njegove tribine? Kolika je cena života u Srbiji? Kakve veze korupcija i migranti imaju s tim? Rizikujući sve zbog priče, jedna novinarka će pokušati da dođe do odgovora. Bivši bokser će, u potrazi za iskupljenjem, lično iskusiti. A ostareli kriminalac će, sa druge strane, sve to pokušati da ostavi za sobom."
+  },
+  {
+    "id": 4,
+    "naslov": "Ognjena kapija",
+    "pisac": "Stiven Presfild",
+    "zanr": "Akcioni",
+    "staraCena": "900",
+    "novaCena": "590",
+    "slika": "assets/images/knjiga4.jpg",
+    "isBestseller": true,
+    "opis": "Jedno od malobrojnih obeležja spartanske civilizacije koja su preživela do danas leži u uzanom planinskom prolazu zvanom Termopile. Na tom su mestu tri stotine najboljih spartanskih ratnika zadržali najezdu Persijskog carstva. Jednostavan kamen s uklesanim natpisom obeležava mesto gde su pali.Nadahnut ovim kamenom i zainteresovan usudom Sparte, Stiven Presfild je izvanredno objedinio učenost s pripovedačkim darom."
+  },
+  {
+    "id": 5,
+    "naslov": "Avgust",
+    "pisac": "Džon Vilijams",
+    "zanr": "Istorijski",
+    "staraCena": null,
+    "novaCena": "1200",
+    "slika": "assets/images/knjiga5.jpg",
+    "isBestseller": true,
+    "opis": "Priča o Oktavijanu, stidljivom i obrazovanom devtnaestogodišnjaku koji nakon smrti svog ujaka Julija Cezara postaje naslednik ogromne moći Rimske imperije. Narativni mozaik, koji Džon Vilijams gradi na beskprekornim istraživanjima, oživljava Avgusta kao vladara koji je uz sve intrige i zavere uspešno vodio Rimsko carstvo. "
+  },
+  {
+    "id": 6,
+    "naslov": "Šala",
+    "pisac": "Domeniko Starnone",
+    "zanr": "Drama",
+    "staraCena": null,
+    "novaCena": "1090",
+    "slika": "assets/images/knjiga6.jpg",
+    "isBestseller": false,
+    "opis": "Dobitnik nagrade Strega, autor svetskog bestselera Pertle.Zamislite dvoboj. Zalazak sunca. Čelični pogledi. Zadržan dah. Čuju se samo otkucaiji srca… Ali ne, ovo je priča o sasvim drugačijem dvoboju. Sa jedne strane je Danijele Malariko, uspešni illustrator koji je svestan da je pred krajem karijere. Sa druge, Mario, Danijeleov četvorogodišnji unuk.Danijele godinama živi na hladnom severu Italije, u dobrovoljnoj virtualnoj izolaciji, usredsređen na svoj rad. Mir će mu poremetiti ćerkin poziv s molbom da se vrati u Napulj na nekoliko dana da pričuva unuka dok su ona i njen muž na poslovnom putu."
+  },
+  {
+    "id": 7,
+    "naslov": "Una",
+    "pisac": "Momo Kapor",
+    "zanr": "Drama",
+    "staraCena": "1000",
+    "novaCena": "690",
+    "slika": "assets/images/knjiga7.jpg",
+    "isBestseller": true,
+    "opis": "oman Una, koji je nastao 1981. godine, spada u red najčitanijih dela Mome Kapora, ne samo zbog intrigantne ljubavne priče oko koje se radnja odvija već i zbog načina na koji je autor uspeo da dočara duh jednog vremena i tako ga zauvek sačuvao od zaborava.Napuštajući svoju „komfornu zonu“ i upuštajući se u vezu sa studentkinjom, profesor Babić dovodi u pitanje sopstvenu egzistenciju, ali zauzvrat dobija mnogo više ili mu se, možda, samo tako čini. Ova knjiga, koja se čita u jednom dahu, vratiće nas nekoliko decenija unazad, ali će nas isto tako podsetiti na neke od situacija s kojima se i danas suočavamo."
+  },
+  {
+    "id": 8,
+    "naslov": "Igraj igraj igraj",
+    "pisac": "Haruki Murakami",
+    "zanr": "Triler",
+    "staraCena": "1300",
+    "novaCena": "990",
+    "slika": "assets/images/knjiga8.jpg",
+    "isBestseller": true,
+    "opis": "U ovom romanu jedan od najoriginalnijih savremenih svetskih pisaca ujedinjuje naučnu fantastiku, triler i satiru. Glavni junak, neprilagođeni usamljenik upušta se u sasvim neobičnu avanturu. U potrazi za misteriozno nestalom bivšom devojkom susreće čudnovate likove sa ove ili one strane granice realnosti. Murakamijev junak živi u svetu visoke tehnologije i modernih dostignuća gde sve stare vrednosti pod najezdom novih nestaju i polako umiru. Igraj Igraj Igraj je napeto, ubrzano i zabavno putovanje kroz moderni Japan. ”Zabavan spoj moderne naučne fantastike, napetosti od koje se grickaju nokti i drevnog mita...” Chicago Tribune ”Knjiga sastavljena od misterije, misticizma, seksa i rokenrola...Brzopotezna i zabavna. Pripovedačev glas koji gura kao dizel gorivo.” Los Angeles Times Book Review ”Postoje pisci koji se usuđuju da zamisle budućnost, ali nijedan sa toliko obzira, zabavno i tako moderno kao Murakami.” Newsweek"
+  },
+  {
+    "id": 9,
+    "naslov": "Kafka na obali mora",
+    "pisac": "Haruki Murakami",
+    "zanr": "Drama",
+    "staraCena": "1100",
+    "novaCena": "900",
+    "slika": "assets/images/knjiga9.jpg",
+    "isBestseller": true,
+    "opis": "Paralelna dva putovanja – jedno, petnaestogodišnjeg dečaka Kafke Tamure, koji napušta dom bežeći od oca s kojim nema nikakav odnos i od njegove edipovske kletve, i drugo, vremešnog Nakate, koji se nikada nije oporavio od neobjašnjivog gubitka svesti u detinjstvu, za vreme Drugog svetskog rata, što je imalo za posledicu da ne zna da čita i piše, ali ima sposobnost da komunicira s mačkama, čine zbunjujuću fabulu ovog remek-dela magičnog realizma koje nas od prve do poslednje stranice zapljuskuje slojevima najrazličitijih tema i motiva, čudnovatim, nadrealnim, uzbudljivim događajima i likovima. Džoni Voker koji ubija mačke da bi njihove duše smeštao u svirale, kiše riba i pijavica, koje se obrušuju s neba, vešta prostitutka koja citira Hegela, a čiji je makro – Sanders, lik kojeg je Murakami „pozajmio“ sa plakata američkog pilećeg carstva KFC, vojnici iz Drugog svetskog rata, i dalje mladići, za koje je vreme stalo a prostor ima drugu dimenziju..."
+  },
+  {
+    "id": 10,
+    "naslov": "Norveška šuma",
+    "pisac": "Haruki Murakami",
+    "zanr": "Drama",
+    "staraCena": null,
+    "novaCena": "1000",
+    "slika": "assets/images/knjiga10.jpg",
+    "isBestseller": true,
+    "opis": "I danas je među mladima u Japanu najčitanija Murakamijeva knjiga, još od objavljivanja 1987, upravo Norveška šuma. Ona je svog autora učinila superzvezdom u domovini i obezbedila mu široku popularnost u čitavom svetu. Radnja romana smeštena je u Tokio kasnih šezdesetih, u vreme kad su japanski studenti, kao i njihove kolege mnogih drugih nacija u svojim zemljama, protestovali protiv sopstvenih režima. Ova pomalo nostalgična pozadina, osim što odslikava atmosferu svetskog bunta, predstavlja kulise za jednu „običnu“ ljubavnu priču. Reč pod navodnicima označava ono u čemu je Murakami majstor bez premca: suptilni poznavalac ljudskog srca, dilema i strasti koje donose ljubavni jadi."
+  },
+  {
+    "id": 11,
+    "naslov": "Dina",
+    "pisac": "Frenk Herbert",
+    "zanr": "NF",
+    "staraCena": null,
+    "novaCena": "1090",
+    "slika": "assets/images/knjiga11.jpg",
+    "isBestseller": true,
+    "opis": "Remek-delo naučne fantastike, koje je uzdiglo žanr na sasvim nov nivo.Pre Matriksa, pre Ratova zvezda, pre Enderove igre i Neuromansera – bila je Dina. Melanž, ili začin, najvrednija je i najređa supstanca u vaseljeni. Droga čije se posledice kreću u rasponu od produžetka životnog veka do trenutačnog putovanja međuzvezdanim prostranstvom može se naći samo na jednoj planeti: na negostoljubivom pustinjskom svetu Arakisu, poznatijem kao Dina.Ko kontroliše Arakis, kontroliše začin. A ko kontroliše začin, kontroliše celu vaseljenu."
+  },
+  {
+    "id": 12,
+    "naslov": "Dina 2: Mesija Dine",
+    "pisac": "Haruki Murakami",
+    "zanr": "NF",
+    "staraCena": "1100",
+    "novaCena": "990",
+    "slika": "assets/images/knjiga12.jpg",
+    "isBestseller": false,
+    "opis": "Dvanaest godina nakon njegove pobede nad kućom Harkonena, Pol Atreid vlada s pustinjske planete Arakisa. Poznatiji pod imenom Muad’Dib, koje izaziva strah i trepet, on je car poznate vaseljene, ikona fanatičnih Slobodnjaka, genetski unapređeno superbiće čije vizije otkrivaju sve moguće budućnosti. Pol poseduje više moći nego što bi ijedno ljudsko biće ikad trebalo imati, pa ipak ne može da spreči rat koji se, u njegovo ime, rasplamsao širom carstva."
+  },
+  {
+    "id": 13,
+    "naslov": "Dina 3: Deca Dine",
+    "pisac": "Frenk Herbert",
+    "zanr": "NF",
+    "staraCena": "1300",
+    "novaCena": "990",
+    "slika": "assets/images/knjiga13.jpg",
+    "isBestseller": false,
+    "opis": "Pustinjski svet Arakis sada je plodan, pun vode i zelenila. Ali sam procvat planete sadrži seme uništenja. Izmenjena klima uništava pustinjske crve, a to je pogubno – ne samo po ekonomiju Dine već i po celo carstvo. Car Pol Atreid, čovek koji je doveo pustinjske Slobodnjake do političke i religijske dominacije poznate vaseljene, nestao je pre devet godina. Njegova deca, blizanci Leto i Ganima, poput oca, poseduju natprirodne sposobnosti i proročke vizije, ali carstvom u ime kuće Atreida vlada njihova tetka, Alija od Noža.Alijina vlast nije apsolutna, a izdaja i pobuna vrebaju s dve strane. Svrgnuta carska kuća Korino kuje zaveru da se ponovo domogne prestola dok fanatične Slobodnjake na otvorenu pobunu poziva tajanstvena osoba koju zovu Propovednik."
+  },
+  {
+    "id": 14,
+    "naslov": "Dina 4: Božanski car Dine",
+    "pisac": "Frenk Herbert",
+    "zanr": "NF",
+    "staraCena": "1200",
+    "novaCena": "1100",
+    "slika": "assets/images/knjiga14.jpg",
+    "isBestseller": true,
+    "opis": "Pustinjski svet Arakis sada je plodan, pun vode i zelenila. Ali sam procvat planete sadrži seme uništenja. Izmenjena klima uništava pustinjske crve, a to je pogubno – ne samo po ekonomiju Dine već i po celo carstvo. Car Pol Atreid, čovek koji je doveo pustinjske Slobodnjake do političke i religijske dominacije poznate vaseljene, nestao je pre devet godina. Njegova deca, blizanci Leto i Ganima, poput oca, poseduju natprirodne sposobnosti i proročke vizije, ali carstvom u ime kuće Atreida vlada njihova tetka, Alija od Noža."
+  },
+  {
+    "id": 15,
+    "naslov": "Tačka pucanja",
+    "pisac": "Hju Maklenan",
+    "zanr": "Istorijski",
+    "staraCena": null,
+    "novaCena": "1000",
+    "slika": "assets/images/knjiga15.jpg",
+    "isBestseller": false,
+    "opis": "Penelopi Vejn veruje da je njen ljubavnik (i brat od tetke) Nil Makrej poginuo služeći vojsku u Evropi, pod komandom njenog oca. I pored upornog očevog insistiranja na Nilovoj krivici i nečasnoj pogibiji, ona ne oseća ništa manju bol i ljubav prema Nilu. Ali ni Penelopi ni njen otac ne znaju da je Nil u stvari još uvek živ i da se vratio u Halifaks da opere ljagu sa svog imena. Ova ratna romansa odvija se u senci nastupajuće kataklizme koja će zadesiti njihov grad 1917. godine, usred I svetskog rata – Halifaške eksplozije, jedne od najvećih u istoriji – kada je poginulo 1950 ljudi, više od devet hiljada ranjeno i šest hiljada domova uništeno, a koju je i sam autor preživeo kao desetogodišnji dečak."
+  },
+  {
+    "id": 16,
+    "naslov": "Pogrešna porodica",
+    "pisac": "Tarin Fišer",
+    "zanr": "Triler",
+    "staraCena": null,
+    "novaCena": "1090",
+    "slika": "assets/images/knjiga16.jpg",
+    "isBestseller": true,
+    "opis": "Kad si odrasla osoba, možeš da kontolišeš koga puštašu svoj život, ali ne možeš da kontrolišeš kako će se ponašati kada ih pustiš. Džuno je pogrešila u vezi s Vini Krauč. Pre nego što se uselila kod porodice Krauč, Džuno je mislila da Vini i njen muž Najdžel imaju savršen brak, savršenog sina, savršen život. Tek sad, kad živi u njihovoj predivnoj kući, vidi da je nemoguće zanemariti pukotine na trošnoj fasadi."
+  },
+  {
+    "id": 17,
+    "naslov": "Problem tri tela",
+    "pisac": "Liju Cisin",
+    "zanr": "NF",
+    "staraCena": "1000",
+    "novaCena": "690",
+    "slika": "assets/images/knjiga17.jpg",
+    "isBestseller": false,
+    "opis": "Prvi roman trilogije Besede o Zemljinoj prošlosti.„Revolucionarno SF delo. Jedinstveni spoj naučne fantastike i filozofske spekulacije, politike i istorije, teorije zavere i kosmologije.“ Džordž R. R. Martin. Nakon niza nerazjašnjenih ubistava koja potresaju naučnu zajednicu, fizičar Vang Miao pokušava da u virtuelnom svetu, koji naseljavaju Galileo, Njutn, Konfucije, Ajnštajn, reši astrodinamički problem tri tela. Pojava sablasnog časovnika i saznanje da je tokom Kulturne revolucije pokrenut tajni vojni projekat slanja signala u potrazi za vanzemaljcima, nateraće ga da se zapita kakva se to pretnja nadvija nad Zemljom i da li su čovečanstvu dani odbrojani."
+  },
+  {
+    "id": 18,
+    "naslov": "Mračna šuma",
+    "pisac": "Liju Cisin",
+    "zanr": "NF",
+    "staraCena": "1300",
+    "novaCena": "990",
+    "slika": "assets/images/knjiga18.jpg",
+    "isBestseller": true,
+    "opis": "Drugi roman trilogije Besede o Zemljinoj prošlosti Zamislite da je čitav univerzum jedna šuma kojom krstare nebrojeni, bezimeni predatori. U toj šumi preživljavaju oni koji su neprimetni, a civilizacija koja otkrije svoje postojanje postaje lak plen. Zemlja se razotkrila. Predatori dolaze. Derviški ples Trisolarisovih zvezda naterao je ovu naprednu rasu u izgnanstvo. Trisolarijanska flota nezadrživo grabi ka Sunčevom sistemu. Njihove verne sluge sofoni pažljivo motre na svaki potez čovečanstva, držeći nauku pod svojom kontrolom. Um postaje poslednje bezbedno uporište, a izbavljenje ljudskog roda pada u ruke zidozornika sa gotovo neograničenim ovlašćenjima. Protiv njih ustaju izdajnici ljudskog roda čiji je zadatak da poruše bedeme spasonosnog umovanja."
+  },
+  {
+    "id": 19,
+    "naslov": "Plavi ljiljan",
+    "pisac": "Megi Stivoter",
+    "zanr": "Fantastika",
+    "staraCena": "1100",
+    "novaCena": "900",
+    "slika": "assets/images/knjiga19.jpg",
+    "isBestseller": true,
+    "opis": "Treći nastavak očaravajućeg serijala Megi Stivoter, nezaustavljive autorke na prvom mestu liste najprodavanijih naslova Njujork Tajmsa! Blu Sardžent je toliko toga pronašla. Prvi put u životu ima prijatelje kojima može da veruje, grupu kojoj može da pripada. Mladi Gavranovi su je prihvatili kao sebi ravnu. Njihove teškoće postale su njene teškoće, a njene su postale njihove. Problem sa pronalaženjem stvari, međutim, jeste u tome koliko ih je zapravo lako izgubiti."
+  },
+  {
+    "id": 20,
+    "naslov": "Ponoćno sunce",
+    "pisac": "Stefan Majer",
+    "zanr": "Fantastika",
+    "staraCena": null,
+    "novaCena": "1000",
+    "slika": "assets/images/knjiga20.jpg",
+    "isBestseller": false,
+    "opis": "Prošlo je 15 godina. Sada je vreme za njegovu stranu priče.Epski roman o neodoljivim iskušenjima i razornim posledicama besmrtne ljubavi. Trijumfalni povratak jednog od najvećih izdavačkih fenomena savremene književnosti koji je očarao milione čitalaca širom sveta."
+  }
+]

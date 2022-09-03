@@ -1,0 +1,66 @@
+<div class="all-page-title page-breadcrumb">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Kontaktirajte nas </h1>
+                <p>U najkraćem roku odgovorićemo na sva vaša pitanja.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End All Pages -->
+
+<div class="contact-box">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12"> 
+
+                <!-- <form id="contactForm" (ngSubmit)="contact(contactForm)"> -->
+
+                <form id="contactForm" [formGroup]="form" (ngSubmit)="onSubmit()">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" formControlName="name" placeholder="Ime"  required   data-error="Please enter your name">
+                                <div  class="help-block with-errors text-danger" *ngIf="form.get('name')?.hasError('required')">
+                                    Ime je neophodno.
+                                </div>
+                                <div class="help-block with-errors text-danger" *ngIf="(form.get('name')?.touched || form.get('name')?.dirty) && !form.get('name')?.valid">
+                                       Ime mora početi prvim velikim slovom, zatim idu mala slova.Mora imati barem 2 karaktera.
+                                </div>
+                            </div>                                 
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="text" placeholder="Vaš Email" id="email" class="form-control" formControlName="email"  required data-error="Please enter your email">
+                                <div  class="help-block with-errors text-danger" *ngIf="form.get('email')?.hasError('required')">
+                                    Email je neophodan.
+                                </div>
+                                <div class="help-block with-errors text-danger" *ngIf="(form.get('email')?.touched || form.get('email')?.dirty) && !form.get('email')?.valid">Email mora imati sva mala slova, brojeve ili neke specijalne karaktere  kao što su tačka i crtica. Mora sadržati '@' znak.</div>
+                            </div> 
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="subject" formControlName="subject" placeholder="Naziv">
+                            </div>                                 
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group"> 
+                                <textarea class="form-control" formControlName="message" id="message" placeholder="Vaša poruka" rows="4" data-error="Write your message"  required ></textarea>
+                                <div  class="help-block with-errors text-danger" *ngIf="form.get('message')?.hasError('required')">
+                                   Poruka je neophodna.
+                                </div>
+                                <div class="help-block with-errors text-danger" *ngIf="(form.get('message')?.touched || form.get('message')?.dirty) && !form.get('message')?.valid">Poruka mora početi sa prvim velikim slovom, zatim idu mala slova.mora imati barem 1 karakter.</div>
+                            </div>
+                            <div class="submit-button text-center">
+                                <button class="btn btn-common" id="submit" type="submit" [disabled]="!form.valid">Pošalji poruku</button>
+                                <div id="msgSubmit" class="h3 text-center hidden"></div> 
+                                <div class="clearfix"></div> 
+                            </div>
+                        </div>
+                    </div>            
+                </form>
+            </div>
+        </div>
+    </div>
+</div> 
